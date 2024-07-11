@@ -14,6 +14,8 @@ Com o array proximo preparado, a busca do padrão em um texto (dados) ocorre sem
 Sempre que uma correspondência falha, o algoritmo utiliza informações do array proximo para determinar o próximo índice a partir do qual deve retomar a busca no padrão.
 
 - A busca é feita de maneira eficiente, sem precisar retroceder no texto mais do que o necessário.
+
+
 O algoritmo KMP é escolhido pela sua eficiência em casos onde a busca precisa ser feita em textos extensos, minimizando o número de comparações necessárias ao evitar retrocessos desnecessários.
 
 
